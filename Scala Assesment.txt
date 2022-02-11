@@ -1,0 +1,114 @@
+Q1.
+Solution - 
+
+object PSI{
+     def main(args:Array[String])
+      {
+          val str_rev = "https://www.google.com"
+          val rev = str_rev.reverse.toUpperCase()
+          println(s"Reversed string is:= $rev")
+      }
+     
+   }
+
+
+Q2.
+Solution - 
+
+object main{
+      def main(args:Array[String])
+       {
+          val name = "Vanilla Donut"
+          val qty = 10
+          val price = 2.50
+          val dJson = 
+              
+
+           |{
+           |"donut name":"&donutName",
+           |"quantity":"$qty",
+           |"price":$price
+           |}
+       println(dJson)
+        }
+}
+Q3.
+Solution - 
+
+object PS{
+   def main(args:Array[String])
+    {
+    val Name = readLine("Please enter name: ")
+    println("Please enter age: ")
+    val Age = readInt()
+    print("Name is : ")
+    print(Name)
+    print("Age is: ")
+    print(Console.RESET)
+    print(Age)
+    }
+}
+
+Q4.
+Solution - 
+
+
+object PS{
+
+def main(args:Array[String])
+{
+ val str = "https://www.google.com"
+ val result = str.charAt(7)
+ println("8th character of the following string is:=$result")                     
+}  
+}
+
+Q5.
+Solution - 
+
+object PS{
+
+def main(args:Array[String])
+{
+   val G_Donut = "Glazed Donut"
+    val u_Price = 2.50
+    val qty = 10
+    val T_Cost = qty * u_Price
+println(f"Total cost of $qty $G_Donut${if(qty>1)"s" else ""} =$$$T_cost%1.2f""")
+}
+
+}
+
+Q6.
+Solution - 
+
+object PS{
+def main(args:Array[String])
+{
+ val fav_movie = readline("What is your favorite movie of all time?")
+ println(s"$fav_movie is totally awesome!")
+}
+}
+
+Q7.
+Solution - 
+
+object demo{
+def main(args: Array[String]){
+val coupon = Seq("A", "BB","CCC","DDDD","EEEEE")
+val len = coupon.map {code => s"$code - ${code.length}"
+}
+len.foreach(println(_))
+}
+}
+
+Q8.
+Solution - 
+
+object PS{
+def main(args: Array[String]){
+var seq = List(100,110,120,130,140)
+var result = seq.sum
+println(result)
+}
+}
